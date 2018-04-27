@@ -23,7 +23,6 @@ const getUrlsFunction = async (args) => {
         url._id = `${process.env.DOMAIN}/${url._id}`;
         return url;
     })
-    console.log(mapped)
     return {urls: mapped}
 }
 
